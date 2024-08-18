@@ -5,13 +5,13 @@ class Telegram:
     API_HASH = env.get("TELEGRAM_API_HASH", "0f6458b19f7574e191995c6fbacc0d5b")
     OWNER_ID = int(env.get("OWNER_ID", 967723997))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@MYOTDLBot")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "5796745025:AAEvqDYfD90443FmVOIUs7rYBe0ScvK4EI8")
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@My2diskdlbot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "5597226448:AAELI1rCBPeK8-Ok4ta4lLtOeOgJDSHycG8")
     CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001691446993))
-    SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
+    SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 6))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://etherbots.site:8080")
+    BASE_URL = env.get("BASE_URL", "http://etherbots.site:7037")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8080))
 
