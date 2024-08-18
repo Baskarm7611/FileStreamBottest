@@ -8,7 +8,7 @@ class Telegram:
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@My2diskdlbot")
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "5597226448:AAELI1rCBPeK8-Ok4ta4lLtOeOgJDSHycG8")
     CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001691446993))
-    SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 6))
+    SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
     BASE_URL = env.get("BASE_URL", "http://etherbots.site:7037")
