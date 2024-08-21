@@ -11,8 +11,8 @@ class Telegram:
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "https://2.59.156.39")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://hi-f2l.z5xjxd.easypanel.host/")
+    BASE_URL = env.get("BASE_URL", "http://etherbots.site:9081")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8080))
 
 # LOGGING CONFIGURATION
